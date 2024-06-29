@@ -7,7 +7,7 @@ dependencies:
     version: 59.1.0
   - name: kargo
     repository: oci://ghcr.io/akuity/kargo-charts # <- changelog in PR, but seems to use mix of tags and releases (both are non-prefixed in this repo)
-    version: 0.5.2
+    version: 0.7.1
   - name: gha-runner-scale-set
     repository: oci://ghcr.io/actions/actions-runner-controller-charts # <- changelog in PR, but citing wrong/ambiguous versions (not using prefixed releases, though it should; repo has both!)
     version: 0.9.1
