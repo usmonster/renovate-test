@@ -13,7 +13,7 @@ dependencies:
     version: 0.9.1
   - name: discourse
     repository: oci://registry-1.docker.io/bitnamicharts # <- works fine, changelog in PR, sourced from the CHANGELOG.md (though prefixed tags are also available)
-    version: 13.0.3
+    version: 13.2.6
   - name: argo-cd
     # repository: oci://ghcr.io/argoproj/argo-helm # <- works fine, changelog in PR
     # repository: oci://registry-1.docker.io/n0rad # <- PR missing changelog because repo misses intermediate chart version (5.50.1)
