@@ -4,7 +4,7 @@ version: 0.0.0
 dependencies:
   - name: kube-prometheus-stack
     repository: oci://ghcr.io/prometheus-community/charts # <- works fine, changelog in PR, both releases & tags are prefixed
-    version: 59.1.0
+    version: 61.1.0
   - name: kargo
     repository: oci://ghcr.io/akuity/kargo-charts # <- changelog in PR, but seems to use mix of tags and releases (both are non-prefixed in this repo)
     version: 0.5.2
