@@ -18,7 +18,7 @@ dependencies:
     # repository: oci://ghcr.io/argoproj/argo-helm # <- works fine, changelog in PR
     # repository: oci://registry-1.docker.io/n0rad # <- PR missing changelog because repo misses intermediate chart version (5.50.1)
     repository: oci://registry-1.docker.io/usmonster # <- works fine, changelog in PR with proper references to prefixed releases
-    version: 5.50.0
+    version: 5.51.0
   - name: test-dep
     repository: oci://registry-1.docker.io/usmonster # <- no changelog at all!
     version: 1.0.0
